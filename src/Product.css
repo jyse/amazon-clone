@@ -1,0 +1,31 @@
+.Product {
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  background-color: white;
+  z-index: 1;
+}
+
+.Product-rating {
+  display: flex;
+  flex-direction: column;
+}
+
+.Product-description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Product .img {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.Product button {
+  margin-top: 8px;
+}
